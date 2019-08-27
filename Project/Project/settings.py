@@ -163,3 +163,7 @@ CRONJOBS = [
     ('0 0 * * 1', 'cron.jobs.AutoAddCurrentWeek'),
     ('0 4 * * 1', 'cron.jobs.BackUp')
 ]
+
+ALLOWED_HOSTS = ["*"]
+
+DEBUG = False
