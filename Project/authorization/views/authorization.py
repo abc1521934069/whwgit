@@ -49,6 +49,7 @@ def __authorize_by_code(request):
         new_user.save()
 
     user = UserInfo.objects.filter(openid=open_id)[0]
+    # user = UserInfo.objects.filter(openid="ozMjy5HyQ8l7u691BTymwy7_Rwy4")[0]
     user_id = user.user_id
     account_info = AccountInfo(id=user_id)
 
