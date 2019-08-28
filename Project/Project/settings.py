@@ -25,6 +25,7 @@ SECRET_KEY = 'yg3ba47g=eoddggm(!li6$do-=_rta*u1ptfjetx@gzd_4(u#g'
 # Application definition
 
 INSTALLED_APPS = [
+    'django_crontab',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -40,10 +41,7 @@ INSTALLED_APPS = [
     # X_Admin
     'xadmin',
     'crispy_forms',
-    'reversion',
-
-    # 第三方应用
-    'django_crontab'
+    'reversion'
 ]
 
 MIDDLEWARE = [
